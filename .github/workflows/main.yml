@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 6,18 * * *' # 每天6:00和18:00运行
+    - cron: '0 9,21 * * *' # 每天6:00和18:00运行
   push:
     branches:
       - main
